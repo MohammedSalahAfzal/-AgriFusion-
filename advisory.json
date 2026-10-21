@@ -1,0 +1,27 @@
+{
+  "healthy": {
+    "summary": "The image resembles the dataset's healthy class.",
+    "actions": ["Continue routine field scouting and follow local crop-management guidance.", "Inspect plants regularly, especially after prolonged wet weather.", "Use balanced fertilizer and irrigation practices appropriate for your field."],
+    "caution": "A healthy prediction does not rule out early infection, pests, or nutrient problems."
+  },
+  "bacterial blight": {
+    "summary": "The model classified this image as bacterial blight.",
+    "actions": ["Inspect multiple plants and look for water-soaked lesions or yellowing along leaf margins.", "Avoid moving contaminated plant material and clean tools between plots.", "Consult local agricultural extension guidance about resistant varieties and locally approved management options."],
+    "caution": "Do not apply antibiotics or pesticides based only on this prediction; confirm the diagnosis with an agricultural specialist."
+  },
+  "brown spot": {
+    "summary": "The model classified this image as brown spot.",
+    "actions": ["Inspect several leaves for brown lesions and check crop nutrition and water stress.", "Use soil-test-informed nutrient management and avoid unnecessary plant stress.", "Ask a local agricultural officer whether seed health or locally approved disease management is appropriate."],
+    "caution": "Brown spots can have multiple causes. Confirm before treating the crop."
+  },
+  "blast": {
+    "summary": "The model classified this image as rice blast.",
+    "actions": ["Inspect leaves and other plant parts for compatible lesions and assess whether symptoms are spreading.", "Avoid excessive nitrogen and manage crop density and irrigation according to local recommendations.", "Contact an agricultural extension officer promptly if symptoms are spreading across the field."],
+    "caution": "Use only locally registered crop-protection products and follow the product label and expert advice."
+  },
+  "leaf smut": {
+    "summary": "The model classified this image as leaf smut.",
+    "actions": ["Inspect additional plants and compare symptoms with a local crop-disease guide.", "Use clean seed and field sanitation practices recommended for your area.", "Seek confirmation from an agricultural extension service before choosing a treatment."],
+    "caution": "Image classification may confuse similar leaf lesions."
+  }
+}
